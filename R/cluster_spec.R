@@ -26,5 +26,5 @@ new_cluster_spec <- function(cls, args, eng_args, mode, method, engine) {
 #' @keywords internal
 #' @export
 make_classes_tidyclust <- function(prefix) {
-  c(prefix, "cluster_spec")
+  c(prefix, "cluster_spec", "unsupervised_spec")
 }
